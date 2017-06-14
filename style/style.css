@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	font-family: helvetica;
+	background: url(../img1.jpg);
+	background-attachment: fixed;
+}
+
+.header {
+	background: #33373d;
+}
+
+.menu {
+	padding: 0;
+	margin: 0 auto;
+	width: 1900px;
+	list-style-type: none;
+}
+
+.menu:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.menu a {
+	color:#fff;
+	padding: 21px 22px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background: #176ae8;
+}
+
+.menu li {
+	float: right;
+	padding: 21px 0;
+}
+
+.menu li:first-child {
+	float: left;
+}
+
+.main-content h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.main-content img {
+	width: 350px;
+	border-radius: 90%;
+	float: right;
+}
+
+.main-content p {
+	color: #FFF;
+	font-size: 50px;
+	padding: 10px;
+	padding-top: 60px;
+}
+.gallery {
+	width: 1230px;
+	margin: 0 auto;
+}
+
+.gallery:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.gallery h1 {
+	color: #fff;
+	padding-top: 200px;
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.gallery .image-block img {
+	width: 400px;
+	height: 200px;
+}
+
+.gallery .image-block {
+	float: left;
+	background: #ccc;
+	border: 1px solid #fff;
+	margin: 3px;
+	box-sizing: border-box;	
+}
+
+.gallery .image-block:hover {
+	background: #fff;
+	cursor: pointer;
+}
+
+.gallery .text {
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.Contact_Me h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 100px;
+	text-decoration: underline;
+}
+
+.Contact_Me li {
+	color: #fff;
+	text-align: center;
+	list-style-type: none;
+	font-size: 30px;
+}
+
+.footer {
+	background: #33373d;
+	text-align: center;
+}
+
+.footer img {
+	margin: 10px;
+}
+
+.footer .info {
+	color: #fff;
+}
+
+.footer-copy {
+	color: #fff;
+}
